@@ -1,5 +1,5 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import TestComponent from "./components/page";
+import TestComponent from "./components/wIP";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import { Poppins } from "next/font/google";
