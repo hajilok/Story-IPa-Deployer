@@ -374,11 +374,17 @@ const GeneratedNFT = () => {
               </Dialog>
             </div>
           ) : (
-            <div>
+            <div className="flex flex-col items-center">
               <p className={`mt-4 mb-3 ml-3 ${poppins.className}`}>
-                After wrap wIP, You can submit your IPA
+                After wrap IP to wIP
               </p>
-              <label className="cursor-pointer bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 ml-24 mr-2">
+              <p className={`mt-4 mb-3 ml-3 ${poppins.className}`}>
+                You can Create IPA
+              </p>
+              <p className={`mt-4 mb-3 ml-3 ${poppins.className}`}>
+                With Upload Image
+              </p>
+              <label className="cursor-pointer bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 ml-3 ">
                 Upload Image
                 <input
                   type="file"
